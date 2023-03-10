@@ -1,16 +1,24 @@
 body {
   max-width: 1170px;
   -webkit-text-size-adjust: 100%;
+  background-color: #ef8283;
+  color: white;
+}
+
+.main {
+  text-align: center;
 }
 
 p {
-  /* font-family: "RocknRoll One", sans-serif; */
-  font-size: 25px;
+  font-family: "Yu Gothic", sans-serif;
+  font-size: 20px;
+  text-shadow: gray 0 1px 1px;
 }
 
 .tex {
   font-family: "RocknRoll One", sans-serif;
   font-size: 25px;
+  text-shadow: black 0 2px 3px;
 }
 
 .num {
@@ -23,4 +31,5 @@ p {
 
 .nowtime {
   font-size: 14px;
+  text-shadow: gray 0 1px 1px;
 }
