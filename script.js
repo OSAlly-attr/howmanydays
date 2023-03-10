@@ -6,6 +6,8 @@ $(function () {
   var y = dt.getFullYear();
   var m = ("00" + (dt.getMonth() + 1)).slice(-2);
   var d = ("00" + dt.getDate()).slice(-2);
+  var h = ("00" + dt.getHours()).slice(-2);
+  var mi = ("00" + dt.getMinutes()).slice(-2);
 
   const y1 = 2016;
   const m1 = 9;
@@ -32,4 +34,6 @@ $(function () {
 
   var termday = dt - start;
   $(".day_2").text(Math.floor(termday / 86400000));
+
+  $(".nowtime").text(y + "/" + m + "/" + d + "/" + h + ":" + mi + " 更新");
 });
