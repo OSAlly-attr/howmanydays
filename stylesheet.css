@@ -1,5 +1,6 @@
 body {
   max-width: 1170px;
+  -webkit-text-size-adjust: 100%;
 }
 
 p {
