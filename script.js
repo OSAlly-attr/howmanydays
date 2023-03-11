@@ -184,7 +184,7 @@ const start = () => {
 
 const daysm = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
 var dt = new Date();
-// var dt = new Date("2023/09/23");
+// var dt = new Date("2023/03/23");
 var start1 = new Date("2016/09/23");
 var y = dt.getFullYear();
 var m = ("00" + (dt.getMonth() + 1)).slice(-2);

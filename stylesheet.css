@@ -32,6 +32,7 @@ p {
 .nowtime {
   font-size: 14px;
   text-shadow: gray 0 1px 1px;
+  font-family: "Yu Gothic", sans-serif;
 }
 
 /* アニメーション */
