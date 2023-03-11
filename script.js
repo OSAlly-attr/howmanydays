@@ -219,8 +219,11 @@ $(function () {
 
   var termday = dt - start1;
   $(".day_2").text(Math.floor(termday / 86400000));
+  $("title").html(
+    "今日で付き合って" + String(Math.floor(termday / 86400000)) + "日"
+  );
 
-  $(".nowtime").text(y + "/" + m + "/" + d + "/" + h + ":" + mi + " 更新");
+  $(".nowtime").text(y + "/" + m + "/" + d + " " + h + ":" + mi + " 更新");
 });
 
 if (dd == 0) {

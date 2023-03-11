@@ -103,8 +103,8 @@ p {
 }
 
 .whole1 .bg {
-  margin-top: 18px;
-  transform: translate(0, 30px);
+  /* margin-top: 18px; */
+  /* transform: translate(0, 30px); */
   transition-delay: 0.85s;
 }
 
@@ -167,29 +167,35 @@ body {
 
 .bg {
   position: absolute;
-  left: 0px;
-  top: -100px;
+  /* display: inline-block; */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -58%);
+  /* -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%); */
 }
 
 /* ハートがふわふわ */
 .bg {
-  animation: fuwafuwa 3s infinite ease-in-out 0.8s alternate;
-  /* background: url(heart-bo2.png) no-repeat center center / 60px auto; */
+  animation: fuwafuwa 10s infinite ease-in-out 0.8s alternate;
   display: inline-block;
   transition: 1.5s ease-in-out;
-  /* width: 70px;
-  height: 70px; 
-  margin-top: 15px; */
 }
 
 @keyframes fuwafuwa {
   0% {
-    transform: translate(0, 0) rotate(-7deg);
+    transform: translate(-50%, -58%) rotate(-2deg);
+  }
+  25% {
+    transform: translate(-49%, -59%) rotate(0deg);
   }
   50% {
-    transform: translate(0, -7px) rotate(0deg);
+    transform: translate(-50%, -60%) rotate(-1deg);
+  }
+  75% {
+    transform: translate(-51%, -59%) rotate(0deg);
   }
   100% {
-    transform: translate(0, 0) rotate(7deg);
+    transform: translate(-50%, -58%) rotate(2deg);
   }
 }
