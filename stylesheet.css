@@ -88,25 +88,25 @@ p {
 .whole1 .title {
   transform: translate(0, 40px);
   /* font-size: 20px; */
-  transition-delay: 0.25s;
+  transition-delay: 0.45s;
 }
 
 .whole1 .main {
   margin-top: 18px;
   transform: translate(0, 30px);
-  transition-delay: 0.45s;
+  transition-delay: 0.7s;
 }
 
 .whole1 .nowtimew {
   margin-top: 18px;
   transform: translate(0, 30px);
-  transition-delay: 0.65s;
+  transition-delay: 0.95s;
 }
 
 .whole1 .bg {
   /* margin-top: 18px; */
   /* transform: translate(0, 30px); */
-  transition-delay: 0.85s;
+  transition-delay: 1.35s;
 }
 
 .whole.-visible .whole1 .item {
